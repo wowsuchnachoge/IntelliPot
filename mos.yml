@@ -31,8 +31,6 @@ config_schema:
   - ["wifi.sta_connect_timeout", "i", 15, {title: "Timeout for connection, seconds"}]
   - ["wifi.ap.ssid", "s", "IntelliPot_??????", {title: "SSID"}]
   - ["wifi.ap.pass", "s", "IntelliPot", {title: "Password", type: "password"}]
-  - ["wifi.ap.protocol", "s", "", {title: "AP Protocol"}]
-  - ["wifi.sta.protocol", "s", "", {title: "STA Protocol"}]
   - ["dash.enable", "b", true, {title: "Dashboard enable"}]
   - ["dash.token", "s", "C116VIO8dBeESMcBxGdWkg", {title: "Dashboard token"}]
 
