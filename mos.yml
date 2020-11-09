@@ -26,9 +26,9 @@ filesystem:
 # Uncomment and modify according to your needs:
 
 config_schema:
-  - ["app", "o", {title: "AutoRoom app custom settings"}]
-  - ["app.output.led", "i", 2, {title: "Internal MCU led"}]
-  - ["wifi.sta_connect_timeout", "i", 5, {title: "Timeout for connection, seconds"}]
+  - ["app", "o", {title: "IntelliPot app custom settings"}]
+  - ["app.output.led", "i", 5, {title: "Internal MCU led"}]
+  - ["wifi.sta_connect_timeout", "i", 15, {title: "Timeout for connection, seconds"}]
   - ["wifi.ap.ssid", "s", "IntelliPot_??????", {title: "SSID"}]
   - ["wifi.ap.pass", "s", "IntelliPot", {title: "Password", type: "password"}]
   - ["wifi.ap.protocol", "s", "", {title: "AP Protocol"}]
