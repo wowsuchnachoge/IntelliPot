@@ -1,5 +1,5 @@
 author: wowsuchnachoge
-description: Mongoose OS IoT room automation app
+description: IntelliPot -> Mongoose OS IoT pot automation app
 version: 1.1
 
 libs_version: ${mos.version}
@@ -31,8 +31,6 @@ config_schema:
   - ["wifi.sta_connect_timeout", "i", 5, {title: "Timeout for connection, seconds"}]
   - ["wifi.ap.ssid", "s", "IntelliPot_??????", {title: "SSID"}]
   - ["wifi.ap.pass", "s", "IntelliPot", {title: "Password", type: "password"}]
-  - ["wifi.ap.protocol", "s", "", {title: "AP Protocol"}]
-  - ["wifi.sta.protocol", "s", "", {title: "STA Protocol"}]
   - ["dash.enable", "b", true, {title: "Dashboard enable"}]
   - ["dash.token", "s", "C116VIO8dBeESMcBxGdWkg", {title: "Dashboard token"}]
 
